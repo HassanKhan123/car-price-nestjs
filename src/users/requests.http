@@ -3,8 +3,17 @@ POST http://localhost:3000/auth/signup
 content-type:application/json
 
 {
-    "email":"hassan.khan@xord.com",
-    "password":"Khan123"
+    "email":"azam.khan@xord.com",
+    "password":"Khan1234"
+}
+
+### Sigin a new user
+POST http://localhost:3000/auth/signin
+content-type:application/json
+
+{
+     "email":"azam.khan@xord.com",
+    "password":"Khan1234"
 }
 
 ### Find a user with ID
