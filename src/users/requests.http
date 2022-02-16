@@ -3,7 +3,7 @@ POST http://localhost:3000/auth/signup
 content-type:application/json
 
 {
-    "email":"azam.khan@xord.com",
+    "email":"umar.khan@xord.com",
     "password":"Khan1234"
 }
 
@@ -12,7 +12,7 @@ POST http://localhost:3000/auth/signin
 content-type:application/json
 
 {
-     "email":"azam.khan@xord.com",
+     "email":"umar.khan@xord.com",
     "password":"Khan1234"
 }
 
@@ -32,5 +32,13 @@ content-type:application/json
 }
 
 ### Remove a user with ID
-DELETE http://localhost:3000/auth/1
+DELETE http://localhost:3000/auth/3
+
+### Get the currently signed in user
+GET http://localhost:3000/auth/whoamI
+
+### Sign out a  user
+POST http://localhost:3000/auth/signout
+
+
 

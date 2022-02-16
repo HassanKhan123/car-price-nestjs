@@ -27,6 +27,16 @@ export class UsersController {
     private authService: AuthService,
   ) {}
 
+  @Get('/whoamI')
+  async whoAmI(@Session() session: any) {
+    return this.usersService.findOne(session.userId);
+  }
+
+  @Post('/signout')
+  async signOut(@Session() session: any) {
+    session.userId = null;
+  }
+
   @Post('/signup')
   async createUser(@Body() body: CreateUserDto, @Session() session: any) {
     const { email, password } = body;
