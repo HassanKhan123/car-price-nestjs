@@ -3,8 +3,8 @@ POST http://localhost:3000/auth/signup
 content-type:application/json
 
 {
-    "email":"sdkjdk@fjkd.dfdssaasdf",
-    "password":"ffd"
+    "email":"hassan.khan@xord.com",
+    "password":"Khan123"
 }
 
 ### Find a user with ID
