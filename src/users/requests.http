@@ -3,7 +3,7 @@ POST http://localhost:3000/auth/signup
 content-type:application/json
 
 {
-    "email":"umar.khan@xord.com",
+    "email":"babar.khan@xord.com",
     "password":"Khan1234"
 }
 
@@ -12,7 +12,7 @@ POST http://localhost:3000/auth/signin
 content-type:application/json
 
 {
-     "email":"umar.khan@xord.com",
+     "email":"babar.khan@xord.com",
     "password":"Khan1234"
 }
 
